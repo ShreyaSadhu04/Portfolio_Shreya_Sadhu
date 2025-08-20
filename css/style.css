@@ -138,24 +138,6 @@ a,a:hover
   margin-bottom: 8px;
 }
 
-/* icons */
-.info-list i {
-  width: 20px;        /* fixed width so text aligns */
-  margin-right: 8px;  /* space between icon and text */
-  color: #333;        /* icon color */
-}
-
-/* label column */
-.info-list .label {
-  width: 90px;        /* adjust for neat alignment */
-  font-weight: bold;
-  display: inline-block;
-}
-
-/* value column */
-.info-list .value {
-  flex: 1;
-}
 
 
 /* navbar */
@@ -922,6 +904,7 @@ a,a:hover
     }
 
 }
+
 
 
 
