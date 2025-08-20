@@ -682,8 +682,9 @@ a,a:hover
     opacity: 1;
 }
 .full-width .info-text {
-  width: 100%;
+  flex: 1;
 }
+
 
 /* call to action */
 .call-to-action
@@ -890,3 +891,4 @@ a,a:hover
     }
 
 }
+
