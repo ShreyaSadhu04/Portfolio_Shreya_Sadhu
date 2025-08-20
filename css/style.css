@@ -681,6 +681,10 @@ a,a:hover
     transform: translateX(0);
     opacity: 1;
 }
+.full-width .info-text {
+  width: 100%;
+}
+
 /* call to action */
 .call-to-action
 {
@@ -884,4 +888,5 @@ a,a:hover
         width: 50%;
         float: left;
     }
+
 }
