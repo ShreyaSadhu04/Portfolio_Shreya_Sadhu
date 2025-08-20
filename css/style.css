@@ -125,6 +125,39 @@ a,a:hover
 {
     background-color: var(--main-color);
 }
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* icons */
+.info-list i {
+  width: 20px;        /* fixed width so text aligns */
+  margin-right: 8px;  /* space between icon and text */
+  color: #333;        /* icon color */
+}
+
+/* label column */
+.info-list .label {
+  width: 90px;        /* adjust for neat alignment */
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* value column */
+.info-list .value {
+  flex: 1;
+}
+
+
 /* navbar */
 .navbar
 {
@@ -681,16 +714,6 @@ a,a:hover
     transform: translateX(0);
     opacity: 1;
 }
-/* Give all icons same width box */
-.fixed-icon {
-  width: 30px;      /* adjust as per your icons */
-  text-align: center;
-}
-
-/* Make text align neatly in one vertical column */
-.info-text {
-  flex: 1;
-}
 
 
 
@@ -899,6 +922,7 @@ a,a:hover
     }
 
 }
+
 
 
 
