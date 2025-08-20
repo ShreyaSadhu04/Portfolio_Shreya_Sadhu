@@ -681,15 +681,15 @@ a,a:hover
     transform: translateX(0);
     opacity: 1;
 }
-/* Make the 'Pursuing' row span across the full line */
-.full-width {
-  align-items: flex-start;   /* prevent vertical squeezing */
+/* Give all icons same width box */
+.fixed-icon {
+  width: 30px;      /* adjust as per your icons */
+  text-align: center;
 }
 
-.full-width .info-text {
+/* Make text align neatly in one vertical column */
+.info-text {
   flex: 1;
-  display: block;            /* force text to take full width */
-  width: 100%;
 }
 
 
@@ -899,5 +899,6 @@ a,a:hover
     }
 
 }
+
 
 
